@@ -4,11 +4,27 @@
 ***Python(pandas、seaborn) + conda环境 + Jupyte rNotebook***
 
 
-利用Python的强大的库pandas，可以进行数据探索和建立数据报表（pandas提供精致和强大的数据框和清洗数据的功能），**在conda环境运行Jupyter，一天一个notebook，一周完成！**
+利用Python的强大的库pandas，可以进行数据探索和建立数据报表（pandas提供精致和强大的数据框和清洗数据的功能）
+**在conda环境运行Jupyter，一天一个notebook，一周完成！**
 
+### 操作步骤 
+
+* Git Clone下载到本地电脑
+
+`
+ $ git clone https://github.com/adamli-86/Pandas-Exercises.git
+`
+
+* 运行notebook
+
+` 
+ $ conda run jupyter notebook 
+`
+
+**浏览器会自动打开notebook**，主页就是文件目录，找到该文件夹即可
 
 ### 前提
-* 1.确保已经安装conda、python
++ 1.确保已经安装conda、python
 ```
  $ conda -V
 
@@ -20,24 +36,14 @@
 
  $ conda install python
 ``` 
-* 2.确保安装了jupyter notebook
- $ jupyter notebook
++ 2.确保安装了jupyter notebook
 
-若无反应，则按下面步骤安装
-https://shimo.im/docs/gV8rvp8DHtvcrkpQ
+`
+$ conda run jupyter notebook
+`
+若报错，**请重新安装Conda和Jupyter Notebook，方法如下**
 
-### 操作步骤 
+官方说明： https://jupyter.readthedocs.io/en/latest/install.html
+备用： https://shimo.im/docs/gV8rvp8DHtvcrkpQ
 
-* 1.Git Clone下载到本地电脑
-```
- $ git clone https://github.com/adamli-86/Pandas-Exercises.git
 
-* 2.运行notebook
-```
- $ jupyter notebook
- 
- or
- 
- $ conda run jupyter notebook 
-```
-此时浏览器会自动打开notebook，主页就是文件目录，找到该文件夹即可
