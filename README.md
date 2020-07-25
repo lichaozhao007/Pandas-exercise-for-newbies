@@ -1,11 +1,11 @@
 
 ## 菜鸟数据分析入门 （Python Data Analysis）
 
-***Python(pandas、seaborn) + conda环境 + Jupyte rNotebook***
 
 
-利用Python的强大的库pandas，可以进行数据探索和建立数据报表（pandas提供精致和强大的数据框和清洗数据的功能）
-**在conda环境运行Jupyter，一天一个notebook，一周完成！**
+
+在conda环境运行Jupyter，利用Python的强大的库pandas，可以进行数据探索和建立数据报表 
+**一天一个notebook，一周入门数据分析！**
 
 ### 操作步骤 
 
@@ -23,7 +23,8 @@
 
 **浏览器会自动打开notebook**，主页就是文件目录，找到该文件夹即可
 
-### 前提
+### 前提 
+***Python(pandas、seaborn) + conda环境 + Jupyte rNotebook*** 
 + 1.确保已经安装conda、python
 ```
  $ conda -V
