@@ -42,9 +42,12 @@
 `
 $ conda run jupyter notebook
 `
-若报错，**请重新安装Conda和Jupyter Notebook，方法如下**
 
-官方说明： https://jupyter.readthedocs.io/en/latest/install.html
+若报错，**请重新安装Conda和Jupyter Notebook，方法如下** 
+
+
+官方说明： https://jupyter.readthedocs.io/en/latest/install.html 
+
 备用： https://shimo.im/docs/gV8rvp8DHtvcrkpQ
 
 
