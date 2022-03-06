@@ -1,15 +1,23 @@
 
  
-## 菜鸟数据分析入门 （Python Data Analysis）
+# 数据分析的利器
 
  
  
-**首先，工欲善其事必先利其器，安装你的数据分析工具是最好的入门。**
+**首先，工欲善其事必先利其器，如果想利用python进行数据分析，那么安装conda是最好的入门利器。**
 
-在conda环境运行Jupyter，利用Python的强大的库pandas，可以进行数据探索和建立数据报表。 
+建议安装python之外，还安装conda。在conda下载Jupyter，利用Python的强大的库pandas，可以进行数据探索和建立数据报表。 
 
 
+名词解释：
+
+python是万能的胶水语言，尤其擅长网络开发和数据分析。
+
+conda是一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。
+
+jupyter notebook是数据分析的轻便但强大的编辑器，可以在浏览器上打开网页直接运行，敲代码直接enter就出结果，也能装各种插件。
  
+pycharm是python流行的编辑器之一，不限于数据分析。
  
 ### 操作步骤 
 
@@ -35,9 +43,9 @@
 
  $ python -V
 ``` 
-如果显示版本号说明已经系统已经安装过或本身自带paython（original的版本号），这种情况建议安装miniconda作为补充。
+如果显示版本号说明已经系统已经安装过或本身自带paython（original的版本号），这种情况建议安装
 
-如果没有任何显示，说明没有python，建议Anaconda（一次性安装python和**常用的package，尤其是数据分析的**。
+如果没有任何显示，说明没有python，建议Anaconda（**一次性安装python和常用数据分析包**），想解约空间或只是玩玩数据分析，也可以miniconda（_只有python和依赖包，后续可以通过conda安装其他高级的数据分析package_）
 ```
  $ pip install conda
 
@@ -51,9 +59,27 @@
 $ conda run jupyter notebook
 `
 
-**也可以通过Jupyter Notebook官方安装：
+## Conda的基本Command（CLI命令）
+
++ 1：基本操作：
+升级全部库：  conda upgrade --all
+升级一个包  conda update packagename
+安装包：conda install packagename
+也可以安装多个包：   conda installl numpy pandas scipy
+安装固定版本的包：conda install numpy =1.10
+移除一个包：conda remove packagename 
+查看所有包：conda list 
+
++ 2：管理python环境：
+创建虚拟环境：conda create -n env_name list of packagenaem
+eg:  conda create -n env_name pandas 
+指定python版本：conda create -n env_name python2 = 2.7 pandas 
+激活环境： activate env_name
+退出环境 :  deactivate  env_name
+删除虚拟环境：conda env remove -n env_name
+显示所有虚拟环境：conda env list  
 
 
-官方说明： https://jupyter.readthedocs.io/en/latest/install.html 
+ 
 
 
