@@ -35,8 +35,11 @@ pycharm是python流行的编辑器之一，不限于数据分析。
 
 * **3）浏览器会自动打开notebook，主页就是文件目录，找到该文件夹即可**
  
-### 前提 
-***Python(pandas、seaborn) + conda环境 + Jupyte rNotebook*** 
+ 
+ 
+### 前提，先安装这三个利器
+
+***Python(pandas) + anaconda（或miniconda） + Jupyter Notebook*** 
 + **1.确保已经安装conda、python**
 ```
  $ conda -V
@@ -59,7 +62,7 @@ pycharm是python流行的编辑器之一，不限于数据分析。
 $ conda run jupyter notebook
 `
 
-## Conda的基本Command（CLI命令）
+**Conda的基本命令**
 
 + 1：基本操作：
 升级全部库：  conda upgrade --all
