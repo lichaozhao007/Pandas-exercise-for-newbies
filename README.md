@@ -2,28 +2,21 @@
  
 # 数据分析入门
 
-利用Python的*数据处理库pandas*，可以进行数据探索、处理数据和输出基本报表（dataflame格式）。 
 
-- **快速运行**
-可直接在线的jupyter服务器运行本练习:
-[binder服务器](https://mybinder.org/v2/gh/lichaozhao007/Pandas-Exercises/HEAD)
+
+## 如何在线快速部署环境并运行本教程？**
+**binder服务器**
+通过
+[**binder服务器**](https://mybinder.org/v2/gh/lichaozhao007/Pandas-Exercises/HEAD)
+浏览器就成为一个虚拟的jupyter notebook，地址类似：https://hub.gke2.mybinder.org/user/lichaozhao007-pandas-exercises-iehd34tx/lab
 
 - **本地运行**
 工欲善其事必先利其器，如果想利用python进行数据分析，那么git clone下载到本地，并在自己的系统上**运行jupyter notebook（推荐通过conda安装）**，掌握这些工具就是最好的入门，当然也不用一上来就下载pycharm这样的重型开发工具。
 
-- **名词和背景解释**
 
-- python是万能的胶水语言，尤其擅长网络开发和数据分析。
+### 本地运行如何操作？
 
-- conda是一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。
-
-- jupyter notebook是数据分析的轻便但强大的编辑器，可以在浏览器上打开网页直接运行，敲代码直接enter就出结果，也能装各种插件。
- 
-- pycharm是python流行的编辑器之一，不限于数据分析。
- 
-### 操作步骤 
-
-+ **1）下载本教材
++ **1）查看python版本
 - 先查看是否安装了python 3.7以上版本 ：
 
 `
@@ -39,7 +32,7 @@
 + **2）运行notebook**
 
 ` 
- $ conda run jupyter notebook 
+ $ jupyter notebook 
 `
 
 + **3）浏览器会自动打开notebook，主页就是文件目录，找到该文件夹即可**
@@ -48,15 +41,14 @@
  
 ### 如何使用conda，并安装jupyter？
 
-**三件套**
+**安装三件套**
 ```
- Python(pandas) + anaconda（或miniconda） + Jupyter Notebook 
+ anaconda（或miniconda） + Jupyter Notebook 
 ```
 **方法如下**
 1.**确保已经安装python(或conda）和panda库**
 ```
 $ python -V
-$ conda -V (可选)
 $  pip install pandas`
 ```
 如果显示版本号说明已经系统已经安装过或本身自带paython（original的版本号），这种情况建议安装
@@ -69,10 +61,12 @@ $  pip install pandas`
 ``` 
 若显示base的版本号（不是系统自带的original的版本号），证明系统已经成功安装conda（及附带的python），若显示original的版本号，请重新安装
 
-2.**确保安装了jupyter notebook**
+2.**安装并允许jupyter notebook**
 
 `
-$ conda run jupyter notebook
+- $ conda install jupyter notebook
+- $ conda run jupyter notebook
+(或者直接：$ jupyter notebook）
 `
 
 **Conda的基本命令**
@@ -96,6 +90,13 @@ eg:  conda create -n env_name pandas
 - 删除虚拟环境：conda env remove -n env_name
 + 显示所有虚拟环境：conda env list  
 
+- **名词和背景解释**
+- Pandas：Python的数据处理库，可以进行数据探索、处理数据和输出基本报表（dataflame格式）。
+- python：主流的开发语言之一，可以跨平台使用的编程语言，尤其适合网络开发和数据分析（包括机器及深度学习），是万能的胶水语言。
+- conda：一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。
+- jupyter notebook：数据分析的轻便但强大的编辑器，可以在浏览器上打开网页直接运行，敲代码直接enter就出结果，也能装各种插件。
+- pycharm：python流行的编辑器之一，不限于数据分析。
+ 
 
  
 
