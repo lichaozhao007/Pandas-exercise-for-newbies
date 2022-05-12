@@ -1,20 +1,24 @@
-
  
 # 数据分析入门
 
 
 
-## 如何在线快速部署环境并运行本教程？**
-**binder服务器**
-通过
-[**binder服务器**](https://mybinder.org/v2/gh/lichaozhao007/Pandas-Exercises/HEAD)
-浏览器就成为一个虚拟的jupyter notebook，地址类似：https://hub.gke2.mybinder.org/user/lichaozhao007-pandas-exercises-iehd34tx/lab
+## A.如何在线快速部署环境并运行本教程？
+提供以下两种方式：
++ 1.通过binder引擎，自己配置
+ - 进入https://mybinder.org 
+ - 找到github地址栏，输入本github即可（也可以是其他任意页面）：https://github.com/lichaozhao007/Pandas-Exercises/ 
+ - 浏览器就成为一个虚拟的jupyter notebook，地址类似：https://hub.gke2.mybinder.org/user/lichaozhao007-pandas-exercises-iehd34tx/lab
 
-- **本地运行**
++ 2.直接进入我已配置的编辑环境
+[**我的binder**](https://mybinder.org/v2/gh/lichaozhao007/Pandas-Exercises/HEAD)
+
+
+
+
+### B.本地运行如何操作？
+**本地运行**
 工欲善其事必先利其器，如果想利用python进行数据分析，那么git clone下载到本地，并在自己的系统上**运行jupyter notebook（推荐通过conda安装）**，掌握这些工具就是最好的入门，当然也不用一上来就下载pycharm这样的重型开发工具。
-
-
-### 本地运行如何操作？
 
 + **1）查看python版本
 - 先查看是否安装了python 3.7以上版本 ：
