@@ -2,17 +2,11 @@
  
 # 数据分析入门
 
+- 可直接在线的jupyter服务器运行本练习:
+[binder服务器](https://mybinder.org/v2/gh/lichaozhao007/Pandas-Exercises/HEAD)
 
+- 工欲善其事必先利其器，如果想利用python进行数据分析，那么在自己的系统上**安装和运行jupyter notebook（可直接安装或通过conda安装）**才是最好的入门。
 
- 
- 
-工欲善其事必先利其器，如果想利用python进行数据分析，那么**安装jupyter notebook（可直接安装或通过conda安装）**，是最好的入门利器。
-
-建议查看是否安装python 3.7以上版本，通过这个命令查看：
-
-`
- $ python -V
-`
 
 利用Python的*数据处理库pandas*，可以进行数据探索、处理数据和输出基本报表（dataflame格式）。 
 
@@ -29,19 +23,26 @@ pycharm是python流行的编辑器之一，不限于数据分析。
  
 ### 操作步骤 
 
-* **1）Git Clone下载到本地电脑**
++ **1）下载本教材
+- 先查看是否安装了python 3.7以上版本 ：
+
+`
+ $ python -V
+`
+
+- 接着Git Clone到本地
 
 `
  $ git clone https://github.com/adamli-86/Pandas-Exercises.git
 `
 
-* **2）运行notebook**
++ **2）运行notebook**
 
 ` 
  $ conda run jupyter notebook 
 `
 
-* **3）浏览器会自动打开notebook，主页就是文件目录，找到该文件夹即可**
++ **3）浏览器会自动打开notebook，主页就是文件目录，找到该文件夹即可**
  
  
  
@@ -51,10 +52,11 @@ pycharm是python流行的编辑器之一，不限于数据分析。
  
 1.**确保已经安装python(或conda）**
 `
- $ python -V
- `
- or
- ` $ conda -V `
+$ python -V
+`
+or
+` $ conda -V `
+
 如果显示版本号说明已经系统已经安装过或本身自带paython（original的版本号），这种情况建议安装
 
 **在conda下载Jupyter**
@@ -74,7 +76,7 @@ $ conda run jupyter notebook
 
 **Conda的基本命令**
 
-+ 1：基本操作：
+1. 基本操作：
 - 升级全部库：  conda upgrade --all
 - 升级一个包  conda update packagename
 - 安装包：conda install packagename
@@ -84,14 +86,14 @@ conda installl numpy pandas scipy
 -移除一个包：conda remove packagename 
 -查看所有包：conda list 
 
-+ 2：管理python环境：
+2. 管理python环境：
 -创建虚拟环境：conda create -n env_name list of packagenaem
 eg:  conda create -n env_name pandas 
--指定python版本：conda create -n env_name python2 = 2.7 pandas 
--激活环境： activate env_name
--退出环境 :  deactivate  env_name
--删除虚拟环境：conda env remove -n env_name
--显示所有虚拟环境：conda env list  
+- 指定python版本：conda create -n env_name python2 = 2.7 pandas 
+- 激活环境： activate env_name
+- 退出环境 :  deactivate  env_name
+- 删除虚拟环境：conda env remove -n env_name
++ 显示所有虚拟环境：conda env list  
 
 
  
