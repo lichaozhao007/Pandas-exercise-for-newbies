@@ -7,9 +7,8 @@
 1. 通过binder引擎，自己配置
  - 进入[mybinder](https://mybinder.org) 
  - 在github repo栏，输入本github地址即可：https://github.com/lichaozhao007/Pandas-Exercises/ 
-![image](https://user-images.githubusercontent.com/62827484/168115380-128f4cff-6ac3-46b7-993f-47077b00c083.png)
-  - 点击launch，等待浏览器加载，就弹出一个新tab，出现如下的虚拟的jupyter notebook 
-
+ - 点击launch，等待浏览器加载，就弹出一个新tab，可在线运行本教材的jupyter notebook 
+![image](https://user-images.githubusercontent.com/62827484/168116706-ebe5c877-e8cc-4799-acbb-6cc88842cb86.png)
 
 2. 直接进入我已配置的编辑环境
 [**我的binder**](https://mybinder.org/v2/gh/lichaozhao007/Pandas-Exercises/HEAD)
