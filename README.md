@@ -2,15 +2,16 @@
 # 数据分析入门
 
 
-
 ## A.如何在线快速部署环境并运行本教程？
 提供以下两种方式：
-+ 1.通过binder引擎，自己配置
- - 进入https://mybinder.org 
- - 找到github地址栏，输入本github即可（也可以是其他任意页面）：https://github.com/lichaozhao007/Pandas-Exercises/ 
- - 浏览器就成为一个虚拟的jupyter notebook，地址类似：https://hub.gke2.mybinder.org/user/lichaozhao007-pandas-exercises-iehd34tx/lab
+1. 通过binder引擎，自己配置
+ - 进入[mybinder](https://mybinder.org) 
+ - 在github repo栏，输入本github地址即可：https://github.com/lichaozhao007/Pandas-Exercises/ 
+![image](https://user-images.githubusercontent.com/62827484/168115380-128f4cff-6ac3-46b7-993f-47077b00c083.png)
+  - 点击launch，等待浏览器加载，就弹出一个新tab，出现如下的虚拟的jupyter notebook 
 
-+ 2.直接进入我已配置的编辑环境
+
+2. 直接进入我已配置的编辑环境
 [**我的binder**](https://mybinder.org/v2/gh/lichaozhao007/Pandas-Exercises/HEAD)
 
 
