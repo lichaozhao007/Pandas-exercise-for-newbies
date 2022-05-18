@@ -46,32 +46,32 @@
 ### 如何使用conda，并安装jupyter？
 
 **安装三件套**
-```
- anaconda（或miniconda） + Jupyter Notebook 
-```
+> anaconda（或miniconda） + Jupyter Notebook 
+
 **方法如下**
-1.**确保已经安装python(或conda）和panda库**
+1. **确保已经安装python(或conda）和panda库**
 ```
 $ python -V
-$  pip install pandas`
+$  pip install pandas
 ```
 如果显示版本号说明已经系统已经安装过或本身自带paython（original的版本号），这种情况建议安装
 
-**在conda下载Jupyter**
+2. **下载Jupyter**
 如果没有任何显示，说明没有python，建议Anaconda（**一次性安装python和常用数据分析包**），想解约空间或只是玩玩数据分析，也可以miniconda（_只有python和依赖包，后续可以通过conda安装其他高级的数据分析package_）
 ```
  $ pip install conda
+ or
  $ conda install python
 ``` 
 若显示base的版本号（不是系统自带的original的版本号），证明系统已经成功安装conda（及附带的python），若显示original的版本号，请重新安装
 
-2.**安装并允许jupyter notebook**
+3. **安装jupyter notebook**
 
-`
+```
 - $ conda install jupyter notebook
 - $ conda run jupyter notebook
 (或者直接：$ jupyter notebook）
-`
+```
 
 **Conda的基本命令**
 
