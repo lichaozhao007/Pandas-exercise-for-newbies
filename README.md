@@ -1,8 +1,9 @@
  
 # 数据分析入门
 
+> 两种方式运行,建议第二种。
 
-## A.如何在线快速部署环境并运行本教程？
+## A.在线快速运行本教程
 提供以下两种方式：
 1. 通过binder引擎，自己配置
  - 进入[mybinder](https://mybinder.org) 
@@ -16,11 +17,11 @@
 
 
 
-### B.本地运行如何操作？
+## B.（建议）本地运行
 **本地运行**
 工欲善其事必先利其器，如果想利用python进行数据分析，那么git clone下载到本地，并在自己的系统上**运行jupyter notebook（推荐通过conda安装）**，掌握这些工具就是最好的入门，当然也不用一上来就下载pycharm这样的重型开发工具。
 
-+ **1）查看python版本
++ 1）查看python版本
 - 先查看是否安装了python 3.7以上版本 ：
 
 `
@@ -33,19 +34,20 @@
  $ git clone https://github.com/adamli-86/Pandas-Exercises.git
 `
 
-+ **2）运行notebook**
++ 2）运行notebook
 
 ` 
  $ jupyter notebook 
 `
 
-+ **3）浏览器会自动打开notebook，主页就是文件目录，找到该文件夹即可**
++ 3）浏览器会自动打开notebook，主页就是文件目录，找到该文件夹即可
  
  
- 
-### 如何使用conda，并安装jupyter？
+## 附录
+**附录1-如何使用conda安装jupyter？**
 
-**安装三件套**
+
+> 安装三件套
 > anaconda（或miniconda） + Jupyter Notebook 
 
 **方法如下**
@@ -73,7 +75,9 @@ $  pip install pandas
 (或者直接：$ jupyter notebook）
 ```
 
-**Conda的基本命令**
+
+
+**附录2-Conda的基本命令**
 
 1.基本操作：
 - 升级全部库：  conda upgrade --all
@@ -94,7 +98,9 @@ eg:  conda create -n env_name pandas
 - 删除虚拟环境：conda env remove -n env_name
 + 显示所有虚拟环境：conda env list  
 
-- **名词和背景解释**
+
+**附录3-名词和背景解释**
+
 - Pandas：Python的数据处理库，可以进行数据探索、处理数据和输出基本报表（dataflame格式）。
 - python：主流的开发语言之一，可以跨平台使用的编程语言，尤其适合网络开发和数据分析（包括机器及深度学习），是万能的胶水语言。
 - conda：一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。
